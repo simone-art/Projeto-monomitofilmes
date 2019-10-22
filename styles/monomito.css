@@ -7,41 +7,63 @@ body {
     max-width: 100%;
     max-height: 100%;
     font-family: 'Rubik', sans-serif;
+    background-color: black;
 }
-#container-monomito {
+/* #container-monomito {
     flex-wrap: wrap;
-}
+} */
 
 .producao-img {
     margin-top: 10px;
-    margin-left: 30%;
-    width: 40%;
-    height: 20%;
 }
-.texto {
-    margin-left: 10px;
-    width: 40%;
-    height: 40%;
-}
+
 .texto-somos {
-    font-size: 10px;
-    color: greenyellow;
-    text-align: justify;
+    font-size: 15px;
+    color: #d2fd34;
 }
-.quem-somos-2 {
-    margin-right: 10px;
-    width: 80%;
-    height: 40%;
-}
+
 .titulo {
-    font-size: 10px;
-    color: indigo;
+    font-size: 15px;
+    color: white;
 }
 .texto-monomito {
-font-size: 8px;
-color: indigo;
+margin-left: 10px;
+font-size: 12px;
+color: white;
+}
+.texto-monomito-2 {
+    margin-left: 10px;
+    font-size: 12px;
+    color: white; 
 }
 .pessoal {
-    font-size: 10px;
+    font-size: 12px;
   
+}
+.foto-larissa {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.texto-larissa {
+margin-left: 10px;
+color: white;
+}
+.foto-lincoln {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.texto-lincoln {
+    margin-left: 10px;
+    color: white;
+}
+.foto-paulo {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.texto-paulo {
+margin-left: 10px;
+color: white;
 }
