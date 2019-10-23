@@ -268,6 +268,7 @@ header {
 
 body {
     width: 100%;
+    font-size: 10px;
 }
 
 #contato{
@@ -283,26 +284,126 @@ body {
 #footer{
     background-color: black;
     padding: 10px;
+    font-size: 10px;
 }
 
 #texto {
    color:#d2fd34; 
+   font-size: 10px;
 }
 
+#facebook{
+ align-items: center;
+}
 .fb {
-    width: 30px;
-    height: 30px;
-    
+    width: 15px;
+    height: 15px;
 }
 
+#instagram{
+    align-items: center;
+   }
 .ig {
-    width: 37px;
-    height: 37px;
-    
+    width: 17px;
+    height: 17px;
 }
+
+#youtube{
+    align-items: center;
+   }
 .yt {
-    width: 48px;
-    height: 48px;
-   
+    width: 18px;
+    height: 18px;
 }
+
+@media (min-width: 768px) 
+{
+    #contato{
+        font-size:25px;
+    }
+    
+    #footer{
+        background-color: black;
+        padding: 30px;
+        font-size: 12px;
+    }
+    
+    #texto {
+       color:#d2fd34; 
+       font-size: 15px;
+    }
+    
+    #facebook{
+     align-items: center;
+    }
+    .fb {
+        width: 27px;
+        height: 27px;
+    }
+    
+    #instagram{
+        align-items: center;
+       }
+    .ig {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #youtube{
+        align-items: center;
+       }
+    .yt {
+        width: 34px;
+        height: 34px;
+    }
+}
+
+@media (min-width: 1024px) 
+{
+    #contato{
+        font-size:30px;
+        padding: 120px;
+    }
+    
+    #footer{
+        background-color: black;
+        padding: 30px;
+        font-size: 15px;
+    }
+    
+    #texto {
+       color:#d2fd34; 
+       padding-left: 280px;
+       font-size: 20px;
+    }
+    
+    #facebook{
+     align-items: center;
+    }
+    .fb {
+        width: 27px;
+        height: 27px;
+    }
+    
+    #instagram{
+        align-items: center;
+       }
+    .ig {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #youtube{
+        align-items: center;
+       }
+    .yt {
+        width: 34px;
+        height: 34px;
+    }
+}
+<<<<<<< HEAD
 >>>>>>> feito a section contatos e footer. adiconado icones e feito a parte responsiva mobile.
+=======
+
+
+>>>>>>> Alterado tamanhos de textos,icones e feito o media querry.
