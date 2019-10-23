@@ -7,19 +7,19 @@ body {
     max-width: 100%;
     max-height: 100%;
     font-family: 'Rubik', sans-serif;
-    background-color: black;
+    background-color: gray;
 }
-/* #container-monomito {
-    flex-wrap: wrap;
-} */
 
 .producao-img {
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    width: 303px;
+    
 }
 
 .texto-somos {
-    font-size: 15px;
+    font-size: 10px;
     color: #d2fd34;
+    text-align: center;
 }
 
 .titulo {
@@ -36,34 +36,393 @@ color: white;
     font-size: 12px;
     color: white; 
 }
-.pessoal {
-    font-size: 12px;
-  
+#monomito-pessoal {
+    display: flex;
+}
+.larissa {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
 }
 .foto-larissa {
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
 }
 .texto-larissa {
 margin-left: 10px;
 color: white;
 }
+
+.lincoln {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+}
 .foto-lincoln {
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
 }
 .texto-lincoln {
     margin-left: 10px;
     color: white;
 }
+
+.paulo {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+}
 .foto-paulo {
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
 }
 .texto-paulo {
 margin-left: 10px;
 color: white;
 }
+
+/* //media queries// */
+@media (min-width: 320px){
+    .producao-img {
+        width: 320px;
+    }
+    .texto-somos {
+        font-size: 19px;
+        margin-left: 22px;
+    }
+    .foto-larissa {
+        margin-left: 10px;
+    }
+    .foto-lincoln {
+        margin-left: 10px;
+    }
+    .foto-paulo {
+        margin-left: 10px;
+    }
+    .titulo {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .texto-monomito {
+        font-size: 18px;
+        
+    }
+    .texto-monomito-2 {
+        font-size: 18px;
+        
+    }
+}
+
+@media (min-width: 375px) {
+    .producao-img {
+        width: 375px;
+    }
+    .texto-somos {
+        font-size: 20px;
+        
+    }
+    .foto-larissa {
+        margin-left: 13px;
+        margin-bottom: 5px;
+    }
+    .foto-lincoln {
+        margin-left: 13px;
+        margin-bottom: 5px;
+    }
+    .foto-paulo {
+        margin-left: 13px;
+        margin-bottom: 5px;
+    }
+    .texto-monomito {
+        margin-left: 15px;
+    }
+    .texto-monomito-2 {
+        margin-left: 15px;
+    }
+
+}
+@media (min-width: 425px) {
+    .producao-img {
+        width: 425px;
+    }
+    .texto-somos {
+        font-size: 30px;
+    }
+    .foto-larissa {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .texto-larissa {
+        font-size: 21px;
+    }
+    .foto-lincoln {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .texto-lincoln {
+        font-size: 21px;
+    }
+    .foto-paulo {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .texto-paulo {
+        font-size: 21px;
+    }
+    .titulo {
+        font-size: 20px;
+    }
+    .texto-monomito {
+        margin-left: 25px;
+        font-size: 16px;
+    }
+    .texto-monomito-2 {
+        margin-left: 25px;
+        font-size: 16px;
+       
+    }
+}
+@media (min-width: 768px) {
+    .producao-img {
+        width: 768px;
+    }
+    .div-mae{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .texto-somos {
+        font-size: 20px;
+        width: 150%;
+        margin-top: 30px;
+        /* margin-right: 341px; */
+        /* width: 50% */
+        
+    }
+    .titulo {
+        margin-top: 30px;
+        margin-left: 170px;
+
+    }
+    .texto-larissa {
+        font-size: 16px;
+        width: 167px;
+        /* width: 50% */
+    }
+    .foto-larissa{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    }
+    .texto-lincoln {
+        font-size: 16px;
+        width: 167px;
+        /* width: 50% */
+    }
+    .foto-lincoln{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    }
+    .texto-paulo {
+        font-size: 16px;
+        width: 167px;
+        /* width: 50% */
+    }
+    .foto-paulo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    }
+
+    .texto-quem-somos{
+        display: block;
+    }
+    .texto-monomito {
+    flex-direction: column;
+    margin-left: 159px;
+    font-size: 17px;
+    
+    
+    }
+    .texto-monomito-2 {
+    flex-direction: column;
+    margin-left: 159px;
+    font-size: 17px;
+        
+    }
+}
+
+@media (min-width: 1024px) {
+    .producao-img {
+        width: 1024px;
+    }
+    .div-mae{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .texto-somos {
+        font-size: 20px;
+        width: 150%;
+        margin-top: 30px;
+        /* margin-right: 341px; */
+        /* width: 50% */
+        
+    }
+    .titulo {
+        margin-top: 30px;
+        margin-left: 200px;
+
+    }
+    .texto-larissa {
+        margin-left: 17px;
+        /* width: 50% */
+    }
+    .foto-larissa{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    }
+    .texto-lincoln {
+        margin-left: 17px;
+        /* width: 50% */
+    }
+    .foto-lincoln{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    }
+    .texto-paulo {
+        margin-left: 17px;
+        /* width: 50% */
+    }
+    .foto-paulo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    }
+
+    .texto-quem-somos{
+        display: block;
+        font-size: 20px;
+    }
+    
+    .texto-monomito {
+    flex-direction: column;
+    margin-left: 200px;
+    font-size: 20px;
+    
+    
+    }
+    .texto-monomito-2 {
+    flex-direction: column;
+    margin-left: 200px;
+    font-size: 20px;
+        
+    }
+}
+
+@media (min-width: 1440px) {
+    .producao-img {
+        width: 1440px;
+    }
+    .div-mae{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .texto-somos {
+        font-size: 30px;
+        width: 103%;
+        margin-top: 30px;
+        margin-left: 46px;
+        /* margin-right: 341px; */
+        /* width: 50% */
+        
+    }
+    
+    .texto-larissa {
+        margin-left: 17px;
+        font-size: 23px;
+        width: 397px;
+        /* width: 50% */
+    }
+    .foto-larissa{
+        width: 80px;
+        height: 80px;
+        border-radius: 70px;
+        margin-left: 67px;
+    }
+    .texto-lincoln {
+        margin-left: 17px;
+        font-size: 23px;
+        width: 397px;
+        /* width: 50% */
+    }
+    .foto-lincoln{
+        width: 80px;
+        height: 80px;
+        border-radius: 70px;
+        margin-left: 67px;
+    }
+    .texto-paulo {
+        margin-left: 17px;
+        font-size: 23px;
+        width: 397px;
+        /* width: 50% */
+    }
+    .foto-paulo {
+        width: 80px;
+        height: 80px;
+        border-radius: 70px;
+        margin-left: 67px;
+    }
+
+    .texto-quem-somos{
+        display: block;
+        font-size: 30px;
+    }
+
+    .titulo {
+        margin-top: 40px;
+        margin-left: 104px;
+        font-size: 23px;
+
+    }
+    
+    .texto-monomito {
+    flex-direction: column;
+    margin-left: 104px;
+    font-size: 23px;
+    width: 648px;
+    
+    
+    }
+    .texto-monomito-2 {
+    flex-direction: column;
+    margin-left: 104px;
+    font-size: 23px;
+    width: 648px;
+        
+    }
+}
+
+
+
+
