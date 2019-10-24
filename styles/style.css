@@ -38,7 +38,7 @@ nav{
 
 nav img{
 width:150px;
-
+z-index: 1;
 margin-left: 100px;
 margin-top: 50px;
 
@@ -50,11 +50,10 @@ margin-top: 50px;
     
 }
 
-.menu-escrito{
-    margin-top: 20px;
-    margin-left: 200px;
-}
 
+.menu-responsivo{
+    width: 100vw;
+}
 
 .navegacao{
 
@@ -84,24 +83,49 @@ hr{
 
 .menu{
     background-color:white;
+    z-index: 1;
 }
 
 
 header {
     position: relative;
     background-color: black;
-    height: 85vh;
+    height: 90vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
 
 }
 
-@media (max-width: 768px){
+
+
+
+
+@media(min-width:1024px){
+
+    .menu-responsivo{
+        background-color: transparent;
+        width: auto;
+    }
+}
+
+
+
+
+
+@media (max-width: 991px){
+
+
+    .menu-responsivo{
+        background-color: black;
+       position: absolute;
+       width: 100%;
+       top: 80px;
+    }
 
     nav img{
         width:130px;
-        
+        z-index: 1;
         margin-left: 1px;
         margin-top: 2px;
         
@@ -116,16 +140,29 @@ header {
            
            
         }
+
+        .fixo{
+   
+            height: 80px;
+            background-color: black;
+            position: relative;
+        }
     
 }
 
 
 @media (max-width: 425px){
 
+
+    .menu-responsivo{
+        background-color: black;
+        width: 100vw;
+    }
+
     nav img{
        
         width:90px;
-        
+        z-index: 1;
         margin-left: 1px;
         margin-top: 2px;
         
@@ -142,15 +179,26 @@ header {
            
            
         }
+
+        .fixo{
+   
+            height: 90px;
+            background-color: black;
+        }
     
 }
 
 @media (max-width: 375px){
 
+    .menu-responsivo{
+        background-color: black;
+        width: 100vw;
+    }
+
     nav img{
        
         width:80px;
-        
+        z-index: 1;
         margin-left: 1px;
         margin-top: 2px;
         
@@ -163,21 +211,27 @@ header {
             background-color:white;
             margin-top: -10px;
           
-           
-         
+        }
 
-           
-           
+        .fixo{
+   
+            height: 90px;
+            background-color: black;
         }
     
 }
 
 @media (max-width: 320px){
 
+    .menu-responsivo{
+        background-color: black;
+        width: 100vw;
+    }
+
     nav img{
        
         width:70px;
-        
+        z-index: 1;
         margin-right: 1 rem;
         margin-top: 2px;
         
@@ -188,13 +242,19 @@ header {
             width: 20px;
             height: 20px;
             background-color:white;
-          
-           
-         
-
-           
-           
         }
+
+        .fixo{
+   
+            height: 90px;
+            background-color: black;
+        }
+
+        .navegacao{
+
+            font-family: 'AmericanCaptain';
+           font-size: 18px;
+       }
     
 }
 
