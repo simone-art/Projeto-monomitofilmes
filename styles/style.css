@@ -1,23 +1,15 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+*{
+    box-sizing: border-box;
+    
+}
+
+/* //NAV BAR// */
 @font-face { 
     font-family: 'AmericanCaptain';
     src: url('./../assest/AmericanCaptain.otf');
     /* src: local('American Captain'), local('American Captain'), url('./assest/AmericanCapitain.tff') format('truetype'); */
  }
 
-*{
-    box-sizing: border-box;
-    
-}
-=======
-
->>>>>>> finalizado
-
-
-
-
-<<<<<<< HEAD
 body{
 background-color: #000000;
 
@@ -102,11 +94,11 @@ header {
     overflow: hidden;
 
 }
-=======
 
-/* #portfolio {
-    margin-top: 20px;
-} */
+#portfolio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -160,13 +152,11 @@ header {
 
 
 
->>>>>>> finalizado
 
 
 
 
 
-<<<<<<< HEAD
 @media(min-width:1024px){
 
     .menu-responsivo{
@@ -174,14 +164,10 @@ header {
         width: auto;
     }
 }
-=======
-
->>>>>>> finalizado
 
 
 
 
-<<<<<<< HEAD
 
 @media (max-width: 991px){
 
@@ -359,245 +345,6 @@ header {
 }
 
 
-
-
-=======
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> finalizado
-*{
-    box-sizing: border-box;
-}
-
-body {
-    width: 100%;
-    font-size: 10px;
-}
-
 #contato{
     width: 100%;
     background-color: black;
@@ -610,8 +357,8 @@ body {
 
 #footer{
     background-color: black;
-    padding: 10px;
     font-size: 10px;
+    
 }
 
 #texto {
@@ -629,7 +376,8 @@ body {
 
 #instagram{
     align-items: center;
-   }
+}
+
 .ig {
     width: 17px;
     height: 17px;
@@ -637,7 +385,8 @@ body {
 
 #youtube{
     align-items: center;
-   }
+}
+
 .yt {
     width: 18px;
     height: 18px;
@@ -651,7 +400,6 @@ body {
     
     #footer{
         background-color: black;
-        padding: 30px;
         font-size: 12px;
     }
     
@@ -694,7 +442,6 @@ body {
     
     #footer{
         background-color: black;
-        padding: 30px;
         font-size: 15px;
     }
     
@@ -728,9 +475,3 @@ body {
         height: 34px;
     }
 }
-<<<<<<< HEAD
->>>>>>> feito a section contatos e footer. adiconado icones e feito a parte responsiva mobile.
-=======
-
-
->>>>>>> Alterado tamanhos de textos,icones e feito o media querry.
